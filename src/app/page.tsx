@@ -18,6 +18,7 @@ export default function Home() {
         <NewToDoForm />
       </Authenticated>
       <Unauthenticated>
+        <h1 className="p-1 text-center">AI Todos List</h1>
         <p className="text-gray-600">Please sign in to continue</p>
         <SignInButton>
           <button className="p-1 bg-blue-500 text-white rounded">
